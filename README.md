@@ -26,7 +26,7 @@ A React application created with **Create React App**, running in a **Docker con
 
 ---
 
-## Step 1 – Create React App Setup
+## Step 1 - Create React App Setup
 
 This is how the project was created
 
@@ -49,7 +49,7 @@ Unused starter files (logo, CSS, tests, web vitals) were removed to keep the pro
 
 ---
 
-## Step 2 – Docker Configuration
+## Step 2 - Docker Configuration
 
 The `Dockerfile` in the project root does the following:
 
@@ -68,7 +68,7 @@ The `.dockerignore` file prevents the local `node_modules` and `build` folders f
 
 ---
 
-## Step 3 – Clone the Repository
+## Step 3 - Clone the Repository
 
 ```bash
 git clone https://github.com/gjootun/<repo-name>.git
@@ -77,7 +77,7 @@ cd <repo-name>
 
 ---
 
-## Step 4 – Build the Docker Image
+## Step 4 - Build the Docker Image
 
 ```bash
 docker build -t jootun_gyanee_coding_assignment11 .
@@ -88,7 +88,7 @@ docker build -t jootun_gyanee_coding_assignment11 .
 
 ---
 
-## Step 5 – Create and Run the Container
+## Step 5 - Create and Run the Container
 
 ```bash
 docker run -d -p 7775:7775 --name jootun_gyanee_coding_assignment11 jootun_gyanee_coding_assignment11
@@ -119,7 +119,7 @@ Stop it with `Ctrl + C`, then run `docker compose down`.
 
 ---
 
-## Step 6 – Verify the Requirements
+## Step 6 - Verify the Requirements
 
 Confirm the container is running with the correct name and port:
 
@@ -155,7 +155,7 @@ Expected: `webpack compiled successfully`
 
 ---
 
-## Step 7 – Stop and Clean Up
+## Step 7 - Stop and Clean Up
 
 ```bash
 docker stop jootun_gyanee_coding_assignment11     # stop the container
