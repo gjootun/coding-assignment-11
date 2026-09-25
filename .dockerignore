@@ -1,0 +1,9 @@
+# Files/folders Docker should NOT copy into the image.
+# node_modules is installed fresh inside the container,
+
+node_modules
+build
+.git
+.gitignore
+.DS_Store
+npm-debug.log*

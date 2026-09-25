@@ -1,0 +1,5 @@
+# Don't push installed packages or build output to GitHub
+node_modules
+build
+.DS_Store
+npm-debug.log*

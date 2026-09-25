@@ -1,0 +1,20 @@
+# =============================================================================
+# docker-compose.yml - Coding Assignment 11 
+# Builds the image AND creates the correctly named container: docker compose up --build
+# =============================================================================
+services:
+  web:
+    # Build the image from the Dockerfile in this folder
+    build: .
+    # Name of the image that gets built
+    image: jootun_gyanee_coding_assignment11
+    # container name
+    container_name: jootun_gyanee_coding_assignment11
+    # Port mapping 
+    ports:
+      - "7775:7775"
+    # Live reload: mount the local project into the container's workdir,
+    volumes:
+      - .:/jootun_gyanee_site
+      # Keep the container's own node_modules 
+      - /jootun_gyanee_site/node_modules
