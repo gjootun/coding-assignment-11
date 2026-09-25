@@ -1,4 +1,4 @@
-# Coding Assignment 11 – Docker File
+# Coding Assignment 11 - Docker File
 
 **Course:** WEBD-3012 Business Systems Build and Testing
 **Student:** Gyanee Jootun
